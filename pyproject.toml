@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kelly-cli"
+version = "0.1.0"
+description = "A command line tool for calculating the Kelly Criterion stake for given odds and bank size"
+authors = ["peaky76 <robertjamespeacock@gmail.com>"]
+readme = "README.md"
+packages = [{include = "kelly_cli"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pybet = "^0.4.0"
+click = "^8.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
