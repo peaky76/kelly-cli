@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kelly-cli"
-version = "0.1.0"
+version = "0.1.1"
 description = "A command line tool for calculating the Kelly Criterion betting stake for given odds and bank size"
 authors = ["peaky76 <robertjamespeacock@gmail.com>"]
 readme = "README.md"

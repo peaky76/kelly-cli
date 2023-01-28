@@ -10,3 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - `kelly` cli with decimal/probability/percentage and bank options
+
+## [0.1.1] - 2023-01-28
+
+### Added
+
+- indicate defaults on `--help` texts
