@@ -29,14 +29,14 @@ files = [
 
 [[package]]
 name = "pybet"
-version = "0.4.0"
+version = "0.4.1"
 description = "A library of betting utilities to assist with calculation of bets, stakes and markets"
 category = "main"
 optional = false
 python-versions = ">=3.9.0,<4.0.0"
 files = [
-    {file = "pybet-0.4.0-py3-none-any.whl", hash = "sha256:bb44e24c8644728918f075418fc04c53d29170836b7b0d186721147ef35ffe31"},
-    {file = "pybet-0.4.0.tar.gz", hash = "sha256:b22d43af4ba2e1eb57496ae3b6afdbff01d08ea75e5541ee4e17fa4c58048a78"},
+    {file = "pybet-0.4.1-py3-none-any.whl", hash = "sha256:2b495f3c706e382bc74249d1fe50f6dab4ece5269142135a01e51a35c2efa561"},
+    {file = "pybet-0.4.1.tar.gz", hash = "sha256:8fecf4714ce0261c450e3395008c7eca644e0b780c20b181e156cd1b2d07cc73"},
 ]
 
 [metadata]
