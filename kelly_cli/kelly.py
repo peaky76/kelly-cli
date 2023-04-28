@@ -31,14 +31,19 @@ from pybet.staking import kelly as pykelly
 @click.option(
     "-b", "--bank", default=100, help="the size of betting bank (default 100)"
 )
-def kelly(odds_type, true_odds, market_odds, bank):
-
+@click.option(
+    "-m",
+    "--commission",
+    default=0,
+    help="the percentage commission to deduct (default 0)",
+)
+def kelly(odds_type, true_odds, market_odds, bank, commission):
     constructor = {
         "decimal": Odds,
         "prob": Odds.probability,
         "percent": Odds.percentage,
     }[odds_type]
 
-    stake = pykelly(constructor(true_odds), constructor(market_odds), bank)
+    stake = pykelly(constructor(true_odds), constructor(market_odds), bank, commission)
     color = "bright_green" if stake > 0 else "red"
     click.secho(f"£{round(stake, 2)}", fg=color)
