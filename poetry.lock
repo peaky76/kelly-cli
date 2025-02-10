@@ -63,13 +63,13 @@ files = [
 
 [[package]]
 name = "peak-utility"
-version = "0.6.0"
+version = "0.7.0"
 description = "A library of utilities, created by peaky76"
 optional = false
-python-versions = ">=3.8,<4.0"
+python-versions = "<4.0,>=3.8"
 files = [
-    {file = "peak_utility-0.6.0-py3-none-any.whl", hash = "sha256:d72f5329ed16c0c313be46a4549e55d38c4d12f23cb8251ed71ba87090640f0b"},
-    {file = "peak_utility-0.6.0.tar.gz", hash = "sha256:dce4d018cb149aa9403d6b2511ff8c0fefb4bd99b4a287d21b85d9c1752c0406"},
+    {file = "peak_utility-0.7.0-py3-none-any.whl", hash = "sha256:51a6ab3b5b3a1c39b144ccb908db6e80ac072d91ce5f4f64b3b3554affa02b16"},
+    {file = "peak_utility-0.7.0.tar.gz", hash = "sha256:e7fcc0e9475c0aaefbd456ccaa1dc0eead1b080fdecc5797d281268681898e4d"},
 ]
 
 [package.dependencies]
@@ -78,17 +78,17 @@ infix = ">=1.2,<2.0"
 
 [[package]]
 name = "pybet"
-version = "0.8.3"
+version = "0.8.4"
 description = "A library of betting utilities to assist with calculation of bets, stakes and markets"
 optional = false
 python-versions = "<4.0,>=3.11"
 files = [
-    {file = "pybet-0.8.3-py3-none-any.whl", hash = "sha256:cebc6a81242ae95756da80af8b930d17748a2105df993dfd59aba4c93e51bd53"},
-    {file = "pybet-0.8.3.tar.gz", hash = "sha256:cdecb3313e40efd05b42942649c7511e9f86412b686e8dac1dcde82004b87d89"},
+    {file = "pybet-0.8.4-py3-none-any.whl", hash = "sha256:ff75e493746bdc834fd7eefabda5a4ea3f161e0c5bfe03faed93f5af7fae934e"},
+    {file = "pybet-0.8.4.tar.gz", hash = "sha256:310a5ae596c58fc0592e305006e576c7e77572094ad8903a12b0d031a43c23fe"},
 ]
 
 [package.dependencies]
-peak-utility = ">=0.5,<0.7"
+peak-utility = ">=0.7.0,<0.8.0"
 
 [metadata]
 lock-version = "2.0"
